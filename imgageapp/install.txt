@@ -12,6 +12,5 @@ MONGO_URL=mongodb://localhost/imageapp
 https://cloud.mongodb.com/
 
 Compas:
-mongodb+srv://pwlodarczak:Rigil66Kentaurus@cluster0.6m1bs.mongodb.net/test
 
 MONGO_URL=<MongoURL>
