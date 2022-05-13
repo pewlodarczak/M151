@@ -1,0 +1,17 @@
+mkdir imgageapp
+cd imgageapp
+
+npm init --y
+
+npm install nodemon express express-validator body-parser bcryptjs jsonwebtoken mongoose passport passport-local passport-local-mongoose ws express-session --save
+
+npm start
+
+MONGO_URL=mongodb://localhost/imageapp
+
+https://cloud.mongodb.com/
+
+Compas:
+mongodb+srv://pwlodarczak:Rigil66Kentaurus@cluster0.6m1bs.mongodb.net/test
+
+MONGO_URL=mongodb+srv://pwlodarczak:Rigil66Kentaurus@cluster0.6m1bs.mongodb.net/imageapp?retryWrites=true&w=majority

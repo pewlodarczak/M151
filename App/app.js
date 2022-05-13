@@ -54,6 +54,7 @@ const { PRIORITY_ABOVE_NORMAL } = require('constants');
 
 // Schritt 7 - GET request handler that provides the HTML UI
 app.get('/', (req, res) => {
+	console.log('get /')
 	imgModel.find({}, (err, items) => {
 		if (err) {
 			console.log(err);
@@ -71,6 +72,7 @@ app.get('/index', (req, res) => {
 })
 
 app.get('/img', (req, res) => {
+	console.log('get /img')
 	imgModel.find({}, (err, items) => {
 		if (err) {
 			console.log(err)	;
